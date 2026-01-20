@@ -1,4 +1,143 @@
- h2{
-    color:red;
-    background-color:aqua;
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #412567;
+    padding: 10px 80px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.brand{
+    color:#ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.brand span{
+    color:#df26ff;
+}
+
+.nav-links{
+    display:flex;
+}
+
+.nav-items{
+    list-style: none;
+    margin-right:32px;
+}
+
+.nav-link{
+    text-decoration:none;
+    font-weight:16px;
+    color:#ffffff;
+}
+
+.btn{
+    background: linear-gradient(to right, #f8ad3c, #ff26b9);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color:#ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero{
+    text-align:center;
+    position: relative;
+}
+
+.hero-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:1600px;
+   
+}
+
+.main{
+    width:100%;
+}
+
+.middle-container{
+    position:absolute;
+    top:40%;
+    left:50%;
+    right:50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+}
+
+.gol{
+    width: 100%;
+    border-radius: 40px;
+}
+
+.microphone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+}
+
+.task{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    background-color: #00ffaa;
+    color:#1a0b2e;;
+    font-size: 18px;
+    font-weight:900px;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+.hero-text h1{
+    color:#ffffff;
+    font-size: 60px;
+    margin: 20px 0 10px;
+}
+
+.hero-text p{
+    color:#ffffff;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.spotify-btn{
+    background: #8e2de2;
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.massage-btn{
+    background: transparent;
+    border: 1px solid #00ff88;
+    color: #00ff88;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
 }
